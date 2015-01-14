@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>MiniProfilerContrib.EFMigrationsFix</id>
+    <version>$version$</version>
+    <authors>John Rummell</authors>
+    <owners>John Rummell</owners>
+    <projectUrl>https://github.com/jrummell/MiniProfilerContrib.EFMigrationsFix</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Adds a post build event that removes MiniProfiler.pdb from your project's output. See http://stackoverflow.com/a/25853921/26226. </description>
+    <tags>miniprofiler ef entity-framework</tags>
+    <dependencies>
+      <dependency id="MiniProfiler" version="3.0.0"/>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="build\*.*" target="Content\build"/>
+  </files>
+</package>
