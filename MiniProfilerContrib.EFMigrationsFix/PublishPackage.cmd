@@ -1,6 +1,6 @@
 ﻿@echo off
 
-set version=1.0.0
+set version=1.0.1
 set project=MiniProfilerContrib.EFMigrationsFix
 set nuspecFile=%project%.nuspec
 set projectFile=%project%.csproj
